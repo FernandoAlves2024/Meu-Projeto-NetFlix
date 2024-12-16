@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(15, 14, 14);
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+}
+.imagen-Topo{
+height: 25px; 
+}
+ul{
+    width: 95%; /* largura*/
+    height: 25px; /* altura*/
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 15px;
+    list-style-type: none;
+}
+.imagem-filmes{
+    height: 150px;
+
+}
+.capa{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    width: 35%;
+    z-index: 3;
+
+}
+.capa-titulo{
+    color: white;
+    font-size: 80px; /* TAMANHO DA FONTE*/
+    font-weight: bold; /* ESPESSURA DA FONTE*/
+
+}
+.capa-descricao{
+    color: white;
+}
+
+.link-assistir{
+    background-color: white;
+    color: black;
+    padding: 10PX 20PX;
+    border-radius: 4PX;
+    cursor: pointer;
+}
+.link-info{
+    color: black;
+    background-color: rgb(255, 255, 255,0.35);
+    padding: 10px 20px;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+.titulo-carrossel{
+    color: white;
+    font-weight: bold;
+}
+#carouselExampleControls{
+    position: absolute;
+    left: 50px;
+    bottom: -200px;
+}
+.botao-som{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: 4;
+}
+.modal{
+   display: none; 
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.6);
+
+}
+.modal-conteudo{
+   background-color: #181818;
+   margin: 30px;
+   padding: 20px;
+   width: 50%;
+   height: 50%;
+   color: white;
+}
