@@ -1,27 +1,26 @@
-<!DOCTYPE html> <!--VERSÃO MAIS ATUALIZADA DO HTML-V5 -->
-<html lang="pt-br"> <!--IDIOMA USADO-->
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<head> <!-- CABEÇA-CONFIGURAÇOES DO SITE-->
+<head>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <meta charset="UTF-8"> <!--PADRAO DE CARACTERES USADOS NO SITE-->
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <!--ESTA AVISANDO QUE É COMPATIVEL COM PC E CELULAR-->
    <link rel="stylesheet" href="style.css">
-   <title>NETFLIX</title>
+   <title>NETFLIX-Atualizado</title>
 </head>
 
-<body> <!--CORPO DO SITE-->
-   <ul> <!--LISTA-->
-      <li> <!--ITENS DA LISTA-->
+<body> 
+   <ul> 
+      <li> 
          <img src="img/logo.png" class="imagen-Topo">
       </li>
       <li>
-         <img src="img/avatar.png" class="imagen-Topo">
+         <img src="img/avatar.png" class="imagen-avatar">
       </li>
    </ul>
 
-   <div class="capa"> <!--CAIXA DE INFORMAÇÕES OU TEXTOS-->
+   <div class="capa"> 
       <h1 class="capa-titulo">stranger things</h1>
       <p class="capa-descricao">
          Stranger Things é uma série sobrenatural de ficção científica criada pelos irmãos Duffer para a Netflix.
@@ -29,37 +28,32 @@
          Will.
       </p>
       <a class="link-assistir">Assistir</a>
-
       <a class="link-info">Mais Infomações</a>
-
    </div>
 
-   <video class="video-1" src="video/stranger-things.mp4" autoplay muted loop></video>
-   <button class="botao-som">🔊</button>
+      <video class="video-1" src="video/stranger-things.mp4" autoplay muted loop></video>
+      <button class="botao-som">🔊</button>
 
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <h2 class="titulo-carrossel">Principais Filmes e Séries</h2>
 
-      <div class="carousel-inner">
+   <div class="carousel-inner">
 
-         <div class="carousel-item active">
+   <div class="carousel-item active">
+      <img src="img/chokehold.jpg" class="imagem-filmes">
+      <img src="img/equalizer.jpg" class="imagem-filmes">
+      <img src="img/hunter.jpg" class="imagem-filmes">
+      <img src="img/jaula.jpg" class="imagem-filmes">
+   </div>
 
-            <img src="img/chokehold.jpg" class="imagem-filmes">
-            <img src="img/equalizer.jpg" class="imagem-filmes">
-            <img src="img/hunter.jpg" class="imagem-filmes">
-            <img src="img/jaula.jpg" class="imagem-filmes">
+   <div class="carousel-item">
+      <img src="img/lift.jpg" class="imagem-filmes">
+      <img src="img/abyss.jpg" class="imagem-filmes">
+      <img src="img/f1.jpg" class="imagem-filmes">
+      <img src="img/moonfall.jpg" class="imagem-filmes">
+   </div>
 
-         </div>
-
-         <div class="carousel-item">
-            <img src="img/lift.jpg" class="imagem-filmes">
-            <img src="img/abyss.jpg" class="imagem-filmes">
-            <img src="img/f1.jpg" class="imagem-filmes">
-            <img src="img/moonfall.jpg" class="imagem-filmes">
-
-         </div>
-
-      </div>
+   </div>
 
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -71,16 +65,10 @@
       </a>
    </div>
 
-   <div classe="modal">
-      <div classe="modal-conteudo">
-         <h2>stranger Things</h2>
-         <p>Stranger Things é uma série sobrenatural de ficção científica criada pelos irmãos Duffer para a Netflix.
-            Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o desaparecimento do
-            garoto
-            Will. </p>
-         <p>Gênero: <b>Ação</b></p>
-         <p>Ano de Lançamento: <b>2015</b></p>
-      </div>
+   <div class="modal">   
+      <h2>stranger Things</h2>
+      <p>Gênero: <b>Ação</b></p>
+      <p>Ano de Lançamento: <b>2015</b></p>
    </div>
 
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
