@@ -30,7 +30,7 @@ ul{
 }
 .capa{
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     left: 5%;
     width: 35%;
     z-index: 3;
@@ -81,9 +81,10 @@ ul{
 .modal{
     display: inline-block;
     top: 60px;
-    left: 600px;
-    width: 24%;
-    height: 19%;
+    left: 50px;
+    width: 46%;
+    height: 20%;
     background-color: rgba(82, 76, 76, 0.35);
     color: white;
+    position: absolute;
 }
